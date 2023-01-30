@@ -2,8 +2,6 @@
 
 ### Select a folder above and read through the guides provided to get started.
 
-<br>
-
 ---
 
 <br>
