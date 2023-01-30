@@ -1,6 +1,6 @@
 <h1><strong>Sass:</strong></h1>
 
-### Install Sass (for first time) :
+### Install Sass (for first time) in VS Code:
 
 <br>
 
@@ -12,15 +12,13 @@ npm install -g sass
 
 ### Optional:
 
-- Install `sass live compiler` extension from `Glenn Marks`
+- Install `Live Sass Compiler` extension from `Glenn Marks`
 
 ---
 
-
-
 <br>
 
-- Change your directory to the project folder
+- Change your directory to the project folder :
 
 ```
 cd path/to/project
@@ -29,21 +27,19 @@ cd path/to/project
 
 cd "path/to/project"
 ```
+
 <br>
 
-- Make directories for src and dist
+- Make directories for src and dist :
 
 ```
 mkdir src
 mkdir dist
 ```
-<br>
-
-- Once the directories are made, press `ctrl` + `shift` + `p` and type settings.json
 
 <br>
 
-- In the settings.json file, update the following:
+- Once the directories are made, press `ctrl` + `shift` + `p` and type settings.json. In the settings.json file, update the following:
 
 ```
     {
@@ -67,3 +63,14 @@ mkdir dist
 sass --watch src:dist
 ```
 
+<br>
+
+---
+
+### For more information on how to use Sass:
+
+- [Sass Documentation](https://sass-lang.com/documentation)
+- [W3 Schools](https://www.w3schools.com/sass/)
+- [Tutorials Point](https://www.tutorialspoint.com/sass/index.htm)
+- [YouTube Tutorial by: freeCodeCamp ](https://www.youtube.com/watch?v=_a5j7KoflTs&t=1382s)
+- [YouTube Tutorial by: developedbyed](https://www.youtube.com/watch?v=Zz6eOVaaelI)
