@@ -1,6 +1,6 @@
 <h1><strong>Sass:</strong></h1>
 
-## Install Sass (for first time) :
+### Install Sass (for first time) :
 
 <br>
 
@@ -15,6 +15,8 @@ npm install -g sass
 - Install `sass live compiler` extension from `Glenn Marks`
 
 ---
+
+
 
 <br>
 
