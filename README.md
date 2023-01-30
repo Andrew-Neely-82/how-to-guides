@@ -22,6 +22,4 @@
 
 <br>
 
-**`&nbsp;&nbsp;If you notice any errors, feel free to leave a comment and I will fix/update them :)&nbsp;&nbsp;`**
-
-<!-- unicode for a space : &nbsp; -->
+**`If you notice any errors, feel free to leave a comment and I will fix/update them :)`**
