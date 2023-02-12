@@ -43,6 +43,7 @@ mkdir dist
 
 <br>
 
+- ### The next step is if you plan on using the Sass Watch plugin, otherwise skip to one after this!
 - #### Once the directories are made, press `ctrl` + `shift` + `p` and type **settings.json**. In the settings.json file, update the following :
 
 ```
