@@ -1,8 +1,8 @@
 # How to Host a React App on GitHub Pages
 
-## 1. Modify package.json
-
 <br>
+
+## 1. Modify package.json
 
 Add the following line to the package.json file:
 
@@ -32,17 +32,17 @@ Your package.json should look something like this now:
   },
 ```
 
-## 2. Install gh-pages
-
 <br>
+
+## 2. Install gh-pages
 
 ```bash
 npm i gh-pages --save-dev
 ```
 
-## 3. Add build and deploy to scripts in package.json
-
 <br>
+
+## 3. Add build and deploy to scripts in package.json
 
 Add the following line to the scripts in package.json:
 
@@ -57,9 +57,9 @@ Add the following line to the scripts in package.json:
   },
 ```
 
-## 4. Deploy the site by running npm run deploy
-
 <br>
+
+## 4. Deploy the site by running npm run deploy
 
 run the build command in your terminal
 
@@ -73,9 +73,9 @@ next run deploy
 npm run deploy
 ```
 
-## 5. Add your gh-pages branch to GitHub
-
 <br>
+
+## 5. Add your gh-pages branch to GitHub
 
 Go to your GitHub repo and click on the settings tab. Scroll down to the GitHub Pages section and select the gh-pages branch as your source.
 
@@ -83,9 +83,9 @@ Go to your GitHub repo and click on the settings tab. Scroll down to the GitHub 
 git remote add origin https://<github-username>.github.io/<repo-name>.git
 ```
 
-## 6. Push your changes to GitHub
-
 <br>
+
+## 6. Push your changes to GitHub
 
 ```bash
 git add .
@@ -93,14 +93,14 @@ git commit -m "deploying react app to gh-pages"
 git push origin main
 ```
 
-## 7. Setup your pages to use the gh-pages branch
-
 <br>
+
+## 7. Setup your pages to use the gh-pages branch
 
 Go to your GitHub repo and click on the settings tab. Scroll down to the GitHub Pages section and click Pages. Under Build and deployment, select the gh-pages branch as your source. The next option should be root. Click save and your site should be live at the url provided.
 
-## 8. Your site should be live at the url provided
-
 <br>
+
+## 8. Your site should be live at the url provided
 
 The page may take a few minutes to load. If it doesn't load, try refreshing the page.
