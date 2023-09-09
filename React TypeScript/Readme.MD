@@ -2,10 +2,14 @@
 
 ###### TypeScript is a statically typed superset of JavaScript that helps you write more maintainable and error-free code. In this guide, we'll walk you through the process of installing TypeScript and using the TypeScript Compiler (tsc) with the --watch flag for automatic code compilation.
 
+<br/>
+
 ## Prerequisites
 
 Before you begin, make sure you have the following installed on your system:
 Node.js and npm (Node Package Manager)
+
+<br/>
 
 ## Installation
 
@@ -34,6 +38,8 @@ npm install typescript --save-dev
 ```
 
 This command installs TypeScript as a development dependency for your project.
+
+<br/>
 
 ## Usage
 
