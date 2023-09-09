@@ -37,11 +37,11 @@ This command installs TypeScript as a development dependency for your project.
 
 ## Usage
 
-#### Create Typescript Files
+### Create Typescript Files
 
 Create TypeScript files with the .ts extension in your project directory. For example, app.ts
 
-#### Create a tsconfig.json file
+### Create a tsconfig.json file
 
 Create a tsconfig.json file in your project directory to configure TypeScript options:
 
@@ -65,6 +65,22 @@ This configuration specifies that TypeScript should target ECMAScript 6 and comp
 
 You can further customize the tsconfig.json file according to your project requirements.
 
-#### Compile TypeScript Code
+### Compile TypeScript Code
 
-    To compile your TypeScript code, open your terminal and run:
+To compile your TypeScript code, open your terminal and run:
+
+```bash
+tsc
+```
+
+This command will compile all .ts files in your project and place the compiled JavaScript files in the dist directory (as specified in tsconfig.json).
+
+### Use tsc --watch
+
+To automatically recompile your TypeScript code whenever changes are made, use the --watch flag with tsc:
+
+```bash
+tsc --watch
+```
+
+Now, whenever you modify a TypeScript file, tsc will automatically recompile it, keeping your JavaScript files up-to-date.
